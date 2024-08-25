@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body{
+        width: 100%;
+    }
+    #cart{
+        margin-left: 130px;
+        
+    }
+    #nav{
+        background-color: rgb(241, 241, 100);
+    }
+
+   
+    #twonav{
+        background-color:none;
+        border: none;
+    }
+    #twonav:hover{
+        color: yellow;
+        background-color:blue;
+        text-decoration: underline;
+        
+    }
+    .home{
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+    #cat{
+        background-color: rgb(241, 241, 100);
+    }
+    #list{
+        margin-right: 15px;
+    }
+    .list-group-item:hover{
+        background-color: rgb(0, 89, 255);
+
+    }
+    a{
+        text-decoration-line: none;
+    }
+    .nik{
+        margin-left: 320px;
+        margin-top: -65px;
+
+    }
+    #roh{
+        background-color: rgb(0, 140, 255);
+        padding: 10px;
+    }
+    #left{
+        margin-left: 80px;
+
+    }
+    
+    #second-nav:hover{
+        background-color: rgb(0, 140, 255) ;
+
+
+    }
+    #card:hover{
+        box-shadow: 5px 10px 10px 5px rgb(198, 198, 212);
+        scale: 1.05;
+    
+    }
+    #card{
+        background-color: rgb(240, 234, 234);
+        border: 2px solid rgb(0, 140, 255) ;
+    }
+    #button{
+        background-color:black;
+        color: rgb(220, 193, 37);
+    }
+    
+    
+   
+</style>
+<body>
+    <div class="row">
+        <div class="col-4 bg-primary">
+            <img src="./flip icon.png" alt="" height="70px" width="150px">
+
+        </div> 
+        <div class="col-4 bg-primary">
+            <form>
+                <input type="search"  placeholder="search here" style="width: 330px; margin-top: 10px;"><button class="btn ">search</button>
+            </form>
+        </div> 
+        <div class="col-4 bg-primary">
+            
+            <img src="./grocery-store.png" alt="" height="40px" width="50px" id="cart">cart $-600
+
+        </div>      
+    </div>
+
+    
+    <div id="nav">
+        <div class="btn-group">
+        <button class="btn " id="twonav">Home</button>
+        <button class="btn" id="twonav">clothings</button>
+        <button class="btn" id="twonav">electronics</button>
+        <button class="btn" id="twonav">health&beauty</button>
+        <button class="btn" id="twonav">watches</button>
+        <button class="btn" id="twonav">jewellery</button>
+        <button class="btn" id="twonav">shoes</button>
+        <button class="btn " id="twonav">toys</button>
+        </div>
+
+    
+    <div class="btn-group" style="float: right;">
+        <button class="btn" id="twonav">today offers</button>
+
+
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <div class="container" id="list">
+                <ul class="list-group list-group-numbers">
+                    
+                    <li class="list-group-item" id="cat"><h3>categroies</h3></li>
+                    <a href="">
+                    <li class="list-group-item">clothing</li>
+                    </a>
+                    <a href="">
+                    <li class="list-group-item ">electronic</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">shoes</li>
+                </a>
+                    <a href="">
+                    <li class="list-group-item ">watches</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">jewellery</li>
+                </a>
+                <a href="#">
+                    <li class="list-group-item ">sports</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">toys</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">bags</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">mobile phone</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">accesseries</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">perfiums</li>
+                </a>
+                <a href="">
+                    <li class="list-group-item ">more items</li>
+                </a>
+                
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="col-4">
+            <div class="home">
+            <h4>spring 1024</h4>
+            <h1 style="font-size: 30px; font-weight: bolder;">WOMEN <span style="color:rgb(241, 241, 100); font-size: 40px;">FASHION</span></h1>
+            <h5 style="font-weight: bold; font-size: 25px;">Lorem ipsum dolor sit amet consectetur, adipisicing </h5>
+            <button class="btn btn-primary">SHOP NOW</button>
+            </div>
+        </div>
+        <div class="col-5">
+            <img src="./image-removebg-preview.png" alt="">
+        </div>
+    </div>
+          <div class="nik my- -5">
+    <div class="row" id="roh">
+        <div class="col-3" id="left">
+            <h5>money back</h5>
+            30 days money back guarantee
+        </div>
+        <div class="col-3" id="left">
+            <h5>free shipping</h5>
+            shipping on order over $99
+        </div>
+        <div class="col-3" id="left">
+            <h5>special sale</h5>
+            extra $9 off on all item 
+        </div>
+    </div>
+            </div>
+
+            <div style="background-color:rgb(241, 241, 100); padding:10px;">
+                <h2>NEW PRODUCT</h2>
+                <div class="btn-group" style="float: right; margin-top: -45px;" >
+                    <button class="btn" id="second-nav">Eloctronic</button>
+                    <button class="btn" id="second-nav">clothing</button>
+                    <button class="btn" id="second-nav">shoes</button>
+                    <button class="btn" id="second-nav">bags</button>
+
+                </div>
+            </div>
+
+
+
+
+           <div class="row my-5">
+            <div class="col-3" id="card">
+                <center>
+                <h2 style="background-color: rgb(0, 140, 255);">Hot deals</h2>
+                <img src="./girl.png" alt="" >
+                <h3>Lady fashion</h3>
+                <h5>flat 60-70%off</h5>
+                <button class="btn" id="button"> Add to cart </button>
+            </center>
+
+            </div>
+            <div class="col-3"  id="card">
+                <center>
+                <h2 style="background-color: rgb(0, 140, 255);">Hot deals</h2>
+                <img src="./image-removebg-preview (3).png" alt="">
+                <h3>Branded watches</h3>
+                <h5>flat 50-70%off</h5>
+                <button class="btn " id="button"> Add to cart </button>
+            </center>
+            </div>
+            <div class="col-3"  id="card">
+                <center>
+                <h2 style="background-color: rgb(0, 140, 255);">Hot deals</h2>
+                <img src="./image-removebg-preview (2).png" alt="">
+                <h3>child fashion</h3>
+                <h5>flat 40-50%off</h5>
+                <button class="btn" id="button"> Add to cart </button>
+            </center>
+
+            </div>
+            <div class="col-3"  id="card">
+                <center>
+                <h2 style="background-color:rgb(0, 140, 255);">Hot deals</h2>
+                <img src="./image-removebg-preview (5).png" alt="">
+                <h3>more items</h3>
+                <h5>flat 60-70%off</h5>
+                <button class="btn" id="button"> Add to cart </button>
+            </center>
+
+            </div>
+           </div>
+
+
+
+
+           <div class="row my-5" id=next>
+            <div class="col-3" id="card">
+                <center>
+                <h2 style="background-color: rgb(0, 140, 255)">Hot deals</h2>
+                <img src="./led2.jpeg" alt="" >
+                <h3>branded LED tv</h3>
+                <h5>flat 30-40%off</h5>
+                <button class="btn" id="button"> Add to cart </button>
+            </center>
+
+            </div>
+            <div class="col-3"  id="card">
+                <center>
+                <h2 style="background-color: rgb(0, 140, 255)">Hot deals</h2>
+                <img src="./camera.jpeg" alt="">
+                <h3>camera</h3>
+                <h5>flat 10-20%off</h5>
+                <button class="btn" id="button"> Add to cart </button>
+            </center>
+            </div>
+            <div class="col-3"  id="card">
+                <center>
+                <h2 style="background-color: rgb(0, 140, 255);">Hot deals</h2>
+                <img src="./mi.jpeg" alt="">
+                <h3>mobile phones</h3>
+                <h5>flat 20-30%off</h5>
+                <button class="btn" id="button"> Add to cart </button>
+            </center>
+
+            </div>
+            <div class="col-3"  id="card">
+                <center>
+                <h2 style="background-color: rgb(0, 140, 255);">Hot deals</h2>
+                <img src="./th (1).jpeg" alt="">
+                <h3>laptops</h3>
+                <h5>flat 20-40%off</h5>
+                <button class="btn" id="button"> Add to cart </button>
+            </center>
+
+            </div>
+           </div>
+
+           <div class="row my-5">
+            <div class="col-4">
+            <center>
+                <img src="./el banner.jpeg" alt="">
+            </center>
+            </div>
+            <div class="col-4">
+            <center>
+                <img src="./makeup banner.jpeg" alt="">
+                </center>
+            </div>
+            <div class="col-4">
+            <center>
+                <img src="./shoes banner.jpeg" alt="">
+                </center>
+            </div>
+           </div>
+
+    
+</body>
+</html>
